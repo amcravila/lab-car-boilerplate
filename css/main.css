@@ -133,19 +133,19 @@ html, body {
 }
 
 ::placeholder {
-    font-size: 14px;
-    color: #DEDEDE;
-    opacity: 1;
+  font-size: 14px;
+  color: #DEDEDE;
+  opacity: 1;
 }
 
 :-ms-input-placeholder {
-    font-size: 14px;
-    color: #DEDEDE;
+  font-size: 14px;
+  color: #DEDEDE;
 }
 
 ::-ms-input-placeholder {
-    font-size: 14px;
-    color: #DEDEDE;
+  font-size: 14px;
+  color: #DEDEDE;
 }
 
 .map {
@@ -263,8 +263,8 @@ li {
 
 /****** LOGIN MODAL ******/
 .box {
-  height: 80vh;
-  width: 50vw;
+  height: 90vh;
+  width: 60vw;
   background-color: #08ac9d;
 }
 
