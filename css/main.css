@@ -15,6 +15,8 @@ html, body {
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   color: white;
+  height: auto;
+  width: auto;
 }
 
 .taxi {
@@ -50,15 +52,14 @@ html, body {
 }
 
 .line {
-  width: 120px;
-  border-top: 1px solid;
+  width: 130px;
+  border-top: 1px solid #FFF;
   display: inline-block;
 }
 
 .phone {
-  height: 82vh;
   background-color: #F7B617;
-  margin-top: -100px;
+  margin-top: -105px;
 }
 
 .text h3 {
@@ -69,30 +70,148 @@ html, body {
 
 .text p {
   font-size: 22px;
-  width: 340px;
+  width: 380px;
 }
 
 .square {
   display: flex;
   border: 1px solid white;
-  margin-left: -20px;
-  width: 1100px;
+  margin-left: -40px;
+  width: 1200px;
 }
 
-.conductor {
+.driver {
+  display: flex;
   height: 68vh;
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.drive {
-  height: 68vh;
+.driver h3 {
+  font-size: 24px;
+}
+
+.driver p {
+  font-size: 20px;
+}
+
+.driver button {
+  background-color: #F7B617;
+  color: #FFF;
+  font-size: 18px;
+}
+
+.conduce {
+  margin-left: 65.5vw;
+  margin-right: auto;
+  padding-top: 15vh;
+  background-color: rgba(0,0,0,0.50);
+  padding-left: 5vh;
+}
+
+.conduce h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.conduce p {
+  font-size: 18px;
 }
 
 .rates {
-  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  height: auto;
   background-color: #F7B617;
 }
 
+.map {
+  background-color: #F7B617;
+  padding: 20px;
+}
+
 footer {
-  height: 95vh;
+  height: auto;
   background-color: #2B2B2B;
+  padding-top: 40px;
+}
+
+.line-footer {
+  width: 100%;
+  border-top: 1px solid;
+  display: inline-block;
+  color: #FFF;
+}
+
+li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+a {
+  color: #FFF;
+}
+
+.down {
+  margin-top: 30vh;
+}
+
+.down img {
+  padding-bottom: 3vh;
+}
+
+.icons {
+  display: flex;
+  margin-top: 50vh;
+  margin-bottom: 0;
+}
+
+li {
+  padding-right: 1vw;
+}
+
+@media screen and (max-width: 576px) {
+  .taxi {
+    height: 80vh;
+    background-position: bottom;
+  }
+
+  .taxi form {
+    width: 80vw;
+    height: 40vh;
+    right: 0;
+    bottom: 30%;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+
+  .taxi form h2 {
+    font-size: 32px;
+  }
+
+  .phone {
+    margin-top: 0px;
+  }
+
+  .phone h4 {
+    font-size: 18px;
+  }
+
+  .square {
+    display: flex;
+    border: 1px solid white;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 160%;
+  }
+
+  .icons {
+    display: flex;
+    margin-top: 0;
+    margin-left: 45vw;
+  }
+
 }
